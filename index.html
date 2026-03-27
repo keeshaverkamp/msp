@@ -41,8 +41,8 @@ nav {
 .nav-links { display: flex; align-items: center; gap: 2rem; }
 .nav-links a { font-size: 0.875rem; color: var(--text-mid); text-decoration: none; font-weight: 400; transition: color .15s; }
 .nav-links a:hover { color: var(--navy); }
-.nav-cta { background: var(--navy); color: var(--white); font-size: 0.875rem; font-weight: 500; padding: 0.5rem 1.25rem; border-radius: 6px; text-decoration: none; transition: background .2s; }
-.nav-cta:hover { background: var(--navy-mid); }
+.nav-cta { background: var(--green); color: var(--white); font-size: 0.875rem; font-weight: 500; padding: 0.5rem 1.25rem; border-radius: 6px; text-decoration: none; transition: opacity .2s; }
+.nav-cta:hover { opacity: .85; }
 @media (max-width: 640px) { .nav-links { display: none; } }
 
 /* HERO */
@@ -350,7 +350,15 @@ footer { background: var(--text-dark); padding: 2.5rem; display: flex; align-ite
 <footer>
   <div class="footer-left">
     <a class="logo" href="#" style="text-decoration:none"><span class="logo-ment">Ment</span><span class="logo-align">Align</span></a>
-    <p>Not-for-profit · Opgericht 2025 · Den Haag</p>
+    <p>Not-for-profit · Opgericht 2026 · Den Haag</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:.5rem;font-size:.8rem;color:rgba(255,255,255,.4);">
+    <span style="font-size:.7rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:rgba(255,255,255,.25);">Met dank aan</span>
+    <div style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center;">
+      <span style="color:rgba(255,255,255,.5)"><strong style="color:rgba(255,255,255,.7)">Exonet</strong> — veilige hosting op Nederlandse servers</span>
+      <span style="color:rgba(255,255,255,.25)">·</span>
+      <span style="color:rgba(255,255,255,.5)"><strong style="color:rgba(255,255,255,.7)">Hawking Health</strong> — technologieleverancier</span>
+    </div>
   </div>
   <div class="footer-links">
     <a href="https://mentalign.nl">mentalign.nl</a>
